@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+html, body {
+  background-image: url("background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  font-family: Helvetica, sans-serif;
+}
+
+#footer .footer_image {
+  height: 24px;
+  width: 24px;
+  text-align: center;
+  padding: 4px;
+}
+
+.theme {
+  padding: 32px 0 32px 0;
+}
+
+.working-area {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+/*B&W*/
+.bw {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+  .bw:hover {
+    -webkit-filter: grayscale(100%);
+  }
+
